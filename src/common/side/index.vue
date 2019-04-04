@@ -37,12 +37,12 @@ export default{
                 },
                 {   
                     sideName:"清单",
-                    to:'/home',
+                    to:'/bill',
                     bg:"background-position: -2.35rem -0.5rem",
-                },                
+                },
                 {   
                     sideName:"体验",
-                    to:'/home',
+                    to:'/ty',
                     bg:"background-position: -2.9rem -0.5rem",
                 },
                 {   
