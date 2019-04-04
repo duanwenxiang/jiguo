@@ -30,7 +30,7 @@ http.interceptors.response.use((res)=>{
 
 export default (method,url,data={})=>{
     if(method == "get"){
-        return http.get(url,{params:data});
+        return http.get(url,data);
     }else if(method == "post"){
         return http.post(url,data);
     }else{

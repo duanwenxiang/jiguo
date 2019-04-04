@@ -1,12 +1,16 @@
 <template>
   <div>
-    <h1>newgoods</h1>
+    <NewGoods/>
   </div>
 </template>
 
 <script>
-export default {
+import NewGoods from "../../components/newgoods"
 
+export default {
+  components:{
+    NewGoods
+  }
 }
 </script>
 

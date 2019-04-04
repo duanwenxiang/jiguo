@@ -1,6 +1,10 @@
 <template>
     <transition enter-active-class="fadeInLeft animated" leave-active-class="fadeOutLeft animated">
-        <ul class="side" v-show="toggle">
+        <ul class="side" v-if="toggle">
+            <div class="top">
+                <img src="../../assets/app-logo.png">
+                <p>极果APP</p>
+            </div>
             <router-link v-for="(item,index) in side"  tag="li" :to=item.to>
                 <p class="icon" :style="item.bg"></p>
                 <p>{{item.sideName}}</p>
@@ -90,6 +94,21 @@ export default{
         top: 0;
         left: 0;
         z-index: 5;
+        .top{
+            display: flex;
+            padding: 0.2rem;
+            align-items: center;
+            img{
+                width: 0.9rem;
+                height: 0.9rem;
+                margin-left: 0.2rem;
+            }
+            p{
+                color: #fb3f3d;
+                font-size: 0.35rem;
+                margin-left: 0.25rem;
+            }
+        }
         li{
             display: flex;
             height: 1rem;

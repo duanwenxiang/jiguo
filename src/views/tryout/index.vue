@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h1>tryout</h1>
+    <Content/>
   </div>
 </template>
 
 <script>
-export default {
 
+
+import Content from '../../components/tryout'
+
+export default {
+components: {
+    Content,
+  }
 }
 </script>
-
-
-<style scoped lang="scss">
-
-</style>

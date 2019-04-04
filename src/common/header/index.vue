@@ -44,6 +44,7 @@ export default{
         width: 100%;
         background: #fff;
         border-bottom:1px solid #ececec;
+        z-index: 2;
         img{
             width: 1.8rem;
             height: 0.7rem;
@@ -72,7 +73,8 @@ export default{
             position: absolute;
             left: 0;
             width: 1rem;
-            padding-left: 0.5rem;
+            margin-left: 0.5rem;
+
             div{
                 width: 0.5rem;
                 height: 0.5rem;

@@ -1,19 +1,33 @@
 <template>
-  <div class="content">
-    <h1>homedadadada</h1>
+  <div>
+    <Slide/>
+    <Bottom/>
+    <Content/>
   </div>
 </template>
 
 <script>
 
-import {getSwiperImg,getInfo} from "@/api/api"
+import Vuex from 'vuex'
+import Slide from './slide'
+import Content from './content'
+import Bottom from './bottom'
 
 export default {
-  async created(){
-    let data = await getSwiperImg();
-    let da = await getInfo();
-    console.log(data,da)
-  }
+  name:"home",
+  components:{
+    Slide,
+    Content,
+    Bottom
+  },
+  created(){
+   this.getSwiperImgActions();
+  },
+  methods: {
+    ...Vuex.mapActions({
+      getSwiperImgActions:"Home/getSwiperImgActions"
+    })
+  },
 }
 </script>
 
