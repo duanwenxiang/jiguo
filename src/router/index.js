@@ -3,10 +3,11 @@ import Router from 'vue-router'
 import home from './home'
 import tryout from './tryout'
 import newgoods from './newgoods'
+import phone from './phone'
 
 Vue.use(Router)
 
-export default new Router({
+let router = new Router({
   routes: [
     {
       path:"/",
@@ -15,9 +16,17 @@ export default new Router({
     home,
     tryout,
     newgoods,
+    phone,
     {
       path:"/**/",
       redirect:"/home",
     }
   ]
 })
+
+router.beforeEach((to,from,next)=>{
+  document.title = to.meta.title;
+  next();
+})
+
+export default router;

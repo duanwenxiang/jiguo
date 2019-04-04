@@ -80,6 +80,10 @@ export default {
 .swiper1 .swiper-pagination-bullet {
   background: #fff;
   opacity: 1;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius:50%;
+  margin: 0 0.05rem!important; 
 }
 .swiper1 .swiper-pagination-bullet-active {
   background: orange;

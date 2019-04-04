@@ -66,7 +66,7 @@ export default{
                 },
                 {
                     sideName:"联系",
-                    to:'/home',
+                    to:'/phone',
                     bg:"background-position: -4.15rem -0.5rem",
                 },
             ],
@@ -94,6 +94,7 @@ export default{
         top: 0;
         left: 0;
         z-index: 5;
+        overflow: auto;
         .top{
             display: flex;
             padding: 0.2rem;
