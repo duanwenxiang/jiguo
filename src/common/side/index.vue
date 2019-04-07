@@ -61,7 +61,7 @@ export default{
                 },                
                 {   
                     sideName:"商城",
-                    to:'/home',
+                    to:'/mall',
                     bg:"background-position:-3.5rem -0.5rem",
                 },
                 {

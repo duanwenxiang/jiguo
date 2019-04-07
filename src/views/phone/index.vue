@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header/>
     <Phone/>
   </div>
 </template>

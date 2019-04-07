@@ -5,7 +5,7 @@
         </div>
         <img src="../../assets/logo1.png">
         <div class="icon">
-            <p class="icon_c"></p>
+            <router-link class="icon_c" to="/search" tag="p"></router-link>
             <p class="icon_c"></p>
         </div>
     </div>
@@ -48,7 +48,7 @@ export default{
         img{
             width: 1.8rem;
             height: 0.7rem;
-            margin: 0.2rem 0;
+            margin: 0.15rem 0;
         }
         .icon{
             position: absolute;

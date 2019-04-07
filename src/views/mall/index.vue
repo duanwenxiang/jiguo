@@ -1,16 +1,16 @@
 <template>
   <div>
     <Header/>
-    <NewGoods/>
+    <Mall/>
   </div>
 </template>
 
 <script>
-import NewGoods from "../../components/newgoods"
+import Mall from "../../components/mall"
 
 export default {
   components:{
-    NewGoods
+    Mall
   }
 }
 </script>

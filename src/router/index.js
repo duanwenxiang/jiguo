@@ -4,6 +4,8 @@ import home from './home'
 import tryout from './tryout'
 import newgoods from './newgoods'
 import phone from './phone'
+import mall from './mall'
+import search from './search'
 
 Vue.use(Router)
 
@@ -17,6 +19,8 @@ let router = new Router({
     tryout,
     newgoods,
     phone,
+    mall,
+    search,
     {
       path:"/**/",
       redirect:"/home",

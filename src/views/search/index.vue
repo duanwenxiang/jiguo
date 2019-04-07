@@ -1,18 +1,17 @@
 <template>
   <div>
-    <Header/>
-    <Content/>
+    <Search/>
   </div>
 </template>
 
 <script>
 
 
-import Content from '../../components/tryout'
+import Search from '../../components/search'
 
 export default {
 components: {
-    Content,
+    Search,
   }
 }
 </script>
