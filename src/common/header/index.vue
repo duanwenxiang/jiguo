@@ -44,6 +44,7 @@ export default{
         width: 100%;
         background: #fff;
         border-bottom:1px solid #ececec;
+        z-index: 5;
         img{
             width: 1.8rem;
             height: 0.7rem;
