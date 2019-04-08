@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Header/>
         <Bill></Bill>
     </div>
 </template>

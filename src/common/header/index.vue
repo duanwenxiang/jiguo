@@ -44,11 +44,7 @@ export default{
         width: 100%;
         background: #fff;
         border-bottom:1px solid #ececec;
-<<<<<<< HEAD
         z-index: 2;
-=======
-        z-index: 5;
->>>>>>> 0c64688e0c70cb500641021174b40326cffa1ca2
         img{
             width: 1.8rem;
             height: 0.7rem;

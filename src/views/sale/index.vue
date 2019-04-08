@@ -1,5 +1,6 @@
 <template>
     <div id="sales">
+        <Header/>
         <Sale></Sale>
         <!--<Saledetail></Saledetail>-->
     </div>

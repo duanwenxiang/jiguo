@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <Header/>
         <Ty></Ty>
     </div>
 </template>
