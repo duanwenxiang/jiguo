@@ -47,22 +47,22 @@ export default{
                 },
                 {   
                     sideName:"体验师",
-                    to:'/home',
+                    to:'/tys',
                     bg:"background-position: -0.55rem -5.43rem",
                 },
                 {   
                     sideName:"优品",
-                    to:'/home',
+                    to:'/youpin',
                     bg:"background-position:0 0.1rem",
                 },                
                 {   
                     sideName:"商城",
-                    to:'/home',
+                    to:'/shop',
                     bg:"background-position:-3.5rem -0.5rem",
                 },
                 {
                     sideName:"联系",
-                    to:'/home',
+                    to:'/connect',
                     bg:"background-position: -4.15rem -0.5rem",
                 },
             ],
