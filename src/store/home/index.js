@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {getSwiperImg,
         getInfo,
         getGoods
@@ -47,3 +48,16 @@ export default {
         }
     },
 }
+=======
+export default({
+    state: {
+
+    },
+    mutations: {
+
+    },
+    actions: {
+
+    }
+})
+>>>>>>> 0c64688e0c70cb500641021174b40326cffa1ca2
