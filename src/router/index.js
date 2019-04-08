@@ -10,6 +10,10 @@ import sale from './sale'
 import bill from './bill'
 import ty from './ty'
 
+import tys from './tys'
+import youpin from './youpin'
+import shop from './shop'
+import connect from './connect'
 Vue.use(Router)
 
 let router = new Router({
@@ -27,6 +31,10 @@ let router = new Router({
     sale,
     bill,
     ty,
+    tys,
+    youpin,
+    shop,
+    connect,
     {
       path:"/**/",
       redirect:"/home",

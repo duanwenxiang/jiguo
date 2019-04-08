@@ -9,6 +9,7 @@ import Bill from './bill'
 import Tyall from './tyall'
 import Tyty from './tyty'
 import Tyqty from './tyqty'
+import Tys from './tys'
 
 Vue.use(Vuex)
 
@@ -22,6 +23,7 @@ export default new Vuex.Store({
       Bill,
       Tyall,
       Tyty,
-      Tyqty
+      Tyqty,
+      Tys
     }
 })

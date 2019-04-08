@@ -51,12 +51,12 @@ export default{
                 },
                 {   
                     sideName:"体验师",
-                    to:'/home',
+                    to:'/tys',
                     bg:"background-position: -0.55rem -5.43rem",
                 },
                 {   
                     sideName:"优品",
-                    to:'/home',
+                    to:'/youpin',
                     bg:"background-position:0 0.1rem",
                 },                
                 {   

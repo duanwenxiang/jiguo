@@ -39,6 +39,7 @@ export default{
         display: flex;
         position: sticky;
         top: 0;
+        z-index:100;
         justify-content: center;
         align-items: center;
         width: 100%;
