@@ -5,7 +5,7 @@
                 <img src="../../assets/app-logo.png">
                 <p>极果APP</p>
             </div>
-            <router-link v-for="(item,index) in side"  tag="li" :to=item.to>
+            <router-link v-for="(item,index) in side"  tag="li" :to="item.to">
                 <p class="icon" :style="item.bg"></p>
                 <p>{{item.sideName}}</p>
             </router-link>

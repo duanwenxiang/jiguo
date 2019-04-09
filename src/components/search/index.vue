@@ -143,7 +143,9 @@ export default {
   padding-left: 0.4rem;
   padding-right: 0.2rem;
   align-items: center;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
   input {
     display: block;
     flex: 1;
@@ -167,6 +169,7 @@ export default {
   }
 }
 .tryout {
+  margin-top: 1rem;
   .tryout_title {
     height: 0.86rem;
     padding: 0 0.24rem;
