@@ -1,5 +1,6 @@
 <template>
     <div class="content">
+        <Loading v-if="isLoading"/>
         <ul v-for="(item,index) in newGoods">
             <p class="title_p">{{item.title}}</p>
             <li>
@@ -27,6 +28,11 @@
 import Vuex from 'vuex'
 
 export default {
+    data() {
+        return {
+            isLoading:true
+        }
+    },
     created() {
         this.getNewGoodsActions()
     },
@@ -36,10 +42,15 @@ export default {
         })
     },
     computed: {
-    ...Vuex.mapState({
-      newGoods: state => state.NewGoods.newGoods[0],
-    })
-  }
+        ...Vuex.mapState({
+        newGoods: state => state.NewGoods.newGoods[0],
+        })
+    },
+    watch: {
+        newGoods(){
+            this.isLoading = false
+        }
+    },
 }
 </script>
 

@@ -1,5 +1,6 @@
 <template>
   <div class="bottom">
+    <Loading v-if="isLoading"/>
     <p class="icon"></p>
     <div class="swiper-container swiper2">
       <div class="swiper-wrapper">
@@ -17,6 +18,11 @@ import "swiper/dist/css/swiper.min.css";
 import Vuex from "vuex";
 
 export default {
+  data() {
+    return {
+      isLoading:true
+    }
+  },
   updated(){
     new Swiper(".swiper2", {
     direction: 'vertical',
@@ -32,7 +38,12 @@ export default {
     ...Vuex.mapState({
       SwiperInfo: state => state.Home.SwiperInfo[0]
     })
-  }
+  },
+  watch: {
+    SwiperInfo(){
+      this.isLoading = false;
+    }
+  },
 };
 </script>
 
