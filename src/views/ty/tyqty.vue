@@ -45,16 +45,6 @@
 </script>
 
 <style scoped lang="scss">
-    *{
-        padding: 0;
-        margin: 0;
-    }
-    .tyqty{
-        margin-top: .68rem;
-    }
-    .tyqty>ul:nth-of-type(1){
-        margin-top: .8rem;
-    }
     .bottomword{
         margin-left: .2rem;
         width: 100%;
@@ -84,6 +74,7 @@
             margin: 0.2rem 0;
             img{
                 width: 100%;
+                height:3.5rem;
                 border-radius: 0.2rem;
             }
             .bottom{

@@ -9,6 +9,7 @@ import search from './search'
 import sale from './sale'
 import bill from './bill'
 import ty from './ty'
+import saledetail from './saledetail'
 
 import tys from './tys'
 import youpin from './youpin'
@@ -35,10 +36,11 @@ let router = new Router({
     youpin,
     shop,
     connect,
-    {
-      path:"/**/",
-      redirect:"/home",
-    }
+    saledetail,
+    // {
+    //   path:"/**/",
+    //   redirect:"/home",
+    // }
   ]
 })
 

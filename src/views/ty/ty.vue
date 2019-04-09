@@ -1,7 +1,8 @@
 <template>
     <div id="app">
-        <component :is="comName"></component>
         <Tyy @toggle="togglepage"></Tyy>
+
+        <component :is="comName"></component>
     </div>
 </template>
 
