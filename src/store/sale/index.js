@@ -34,7 +34,7 @@ export default {
             axios({
                 method:"get",
                 dataType: 'jsonp',
-                url:'http://localhost:8080/api/article/GetArticleList?type=2&limit='+this.state.Sale.limit+'&size=10',
+                url:'http://localhost:8080/api/article/GetArticleList?type=3&limit='+this.state.Sale.limit+'&size=10',
             }).then((data)=>{
                 commit("getLoadBottomMutations",{getLoadBottomMs:data.data.result,getLoadBottomLimit:data.data.limit})
             })

@@ -32,7 +32,7 @@
                 this.$refs.loadmore.onBottomLoaded();
                 this.getLoadBottomActions();
             },
-        },
+        }
     }
 </script>
 
