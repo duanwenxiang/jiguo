@@ -10,7 +10,6 @@ import sale from './sale'
 import bill from './bill'
 import ty from './ty'
 import saledetail from './saledetail'
-
 import tys from './tys'
 import youpin from './youpin'
 import shop from './shop'
@@ -37,10 +36,10 @@ let router = new Router({
     shop,
     connect,
     saledetail,
-    // {
-    //   path:"/**/",
-    //   redirect:"/home",
-    // }
+    {
+      path:"/**/",
+      redirect:"/home",
+    }
   ]
 })
 
