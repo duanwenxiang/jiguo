@@ -1,17 +1,20 @@
 <template>
   <div class="youpin">
     <Header/>
-    <h1>大大大大泡泡堂</h1>
+    <Youpin/>
   </div>
 </template>
 
 <script>
+import Youpin from './youpin.vue'
 export default {
-    
+    components:{
+      Youpin
+    }
 }
 </script>
 
 
 <style scoped lang="scss">
-
+  
 </style>
