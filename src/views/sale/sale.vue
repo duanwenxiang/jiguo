@@ -1,9 +1,9 @@
 <template>
     <div id="sales">
         <!--<Saledetail></Saledetail>-->
-        <ul>
-            <!--<router-link id="shangpin" v-for="item in list" tag="li" to="/saledetail">-->
-            <li id="shangpin" v-for="(item,index) in Sale" >
+        <router-link tag="ul" to="/sale/saledetail">
+            <router-view></router-view>
+                <li id="shangpin" v-for="(item,index) in Sale" >
                 <div class="image">
                     <img :src="'https://s2.jiguo.com/'+item.cover+'/640?imageView2/1/w/230/h/230/q/100'">
                 </div>
@@ -19,14 +19,13 @@
                     </div>
                 </div>
             </li>
-            <!--</router-link>-->
-        </ul>
+        </router-link>
     </div>
 </template>
 
 <script>
-//    import Saledetail from "./saledetail.vue"
-import Vuex from 'vuex'
+    import Saledetail from "./saledetail.vue"
+    import Vuex from 'vuex'
     export default {
         created() {
             this.getSaleActions()

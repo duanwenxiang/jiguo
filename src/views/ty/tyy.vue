@@ -32,14 +32,10 @@
 </script>
 
 <style scoped lang="scss">
-    *{
-        margin: 0;
-        padding: 0;
-    }
     #tyy{
-        position: fixed;
-        top:1.04rem;
-        left: 0;
+        /*position: fixed;*/
+        /*top:1.04rem;*/
+        /*left: 0;*/
         width: 100%;
         padding: 0 2rem;
         border-bottom: 7px solid #ececec;

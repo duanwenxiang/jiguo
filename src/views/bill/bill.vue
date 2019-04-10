@@ -63,6 +63,7 @@
             margin: 0.2rem 0;
             img{
                 width: 100%;
+                height:3.5rem;
                 border-radius: 0.2rem;
             }
             .bottom{
