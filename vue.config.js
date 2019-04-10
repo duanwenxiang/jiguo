@@ -1,4 +1,5 @@
 module.exports={
+    publicPath:"jiguo",
     devServer:{
         proxy:{
             "/api":{
