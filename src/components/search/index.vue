@@ -46,7 +46,7 @@
         <div class="trtout_right">
           <b>{{item.name}}</b>
           <p>
-            <span>{{item.follownum}}人</span>申请
+            <span>{{item.follownum}}人</span>申请111
           </p>
           <p>{{item.status.title}}</p>
         </div>
